@@ -11,7 +11,7 @@ cypress/screenshots/*
 cypress/videos/*
 
 ### Node ###
-# Logs
+# Log
 logs
 *.log
 npm-debug.log*
