@@ -5,7 +5,7 @@ name: Lint workflow
 on:
   pull_request:
     branches:
-      - develop
+      - main
       - staging
 
 # Jobs to carry out
@@ -23,7 +23,7 @@ jobs:
       - name: Use Node.js 21.x
         uses: actions/setup-node@v1
         with:
-          node-version: 21.x
+          node-version: 23.x
 
       # Install dependencies
       - name: 🧰 Install Deps
